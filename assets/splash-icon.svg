@@ -1,0 +1,26 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bowl shape - bigger for splash -->
+  <ellipse cx="512" cy="570" rx="300" ry="65" fill="none" stroke="white" stroke-width="32" stroke-linecap="round"/>
+  <path d="M212 570 Q212 770 512 770 Q812 770 812 570" fill="white" opacity="0.15"/>
+  <path d="M212 570 Q212 770 512 770 Q812 770 812 570" fill="none" stroke="white" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Spoon -->
+  <line x1="730" y1="290" x2="658" y2="498" stroke="white" stroke-width="28" stroke-linecap="round"/>
+  <ellipse cx="710" cy="258" rx="42" ry="58" fill="none" stroke="white" stroke-width="28" transform="rotate(-35 710 258)"/>
+
+  <!-- Fork -->
+  <line x1="294" y1="290" x2="366" y2="498" stroke="white" stroke-width="28" stroke-linecap="round"/>
+  <line x1="278" y1="200" x2="290" y2="308" stroke="white" stroke-width="24" stroke-linecap="round"/>
+  <line x1="310" y1="188" x2="315" y2="302" stroke="white" stroke-width="24" stroke-linecap="round"/>
+  <line x1="342" y1="194" x2="340" y2="305" stroke="white" stroke-width="24" stroke-linecap="round"/>
+  <path d="M278 308 Q310 330 340 305" fill="none" stroke="white" stroke-width="24" stroke-linecap="round"/>
+
+  <!-- Large leaf in bowl -->
+  <path d="M512 478 C472 428 408 416 396 378 C384 340 422 302 470 316 C494 323 512 344 512 344 C512 344 530 323 554 316 C602 302 640 340 628 378 C616 416 552 428 512 478Z" fill="white" opacity="0.95"/>
+  <line x1="512" y1="478" x2="512" y2="376" stroke="#1a7a4a" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Dots in bowl -->
+  <circle cx="416" cy="626" r="15" fill="white" opacity="0.5"/>
+  <circle cx="512" cy="644" r="15" fill="white" opacity="0.5"/>
+  <circle cx="608" cy="626" r="15" fill="white" opacity="0.5"/>
+</svg>

@@ -1,0 +1,38 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#1a7a4a"/>
+  
+  <!-- Subtle radial gradient overlay -->
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#2d9e63" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0f5c35" stop-opacity="1"/>
+    </radialGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+
+  <!-- Bowl shape -->
+  <ellipse cx="512" cy="560" rx="280" ry="60" fill="none" stroke="white" stroke-width="28" stroke-linecap="round"/>
+  <path d="M232 560 Q232 740 512 740 Q792 740 792 560" fill="white" opacity="0.15"/>
+  <path d="M232 560 Q232 740 512 740 Q792 740 792 560" fill="none" stroke="white" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Spoon -->
+  <line x1="720" y1="300" x2="650" y2="490" stroke="white" stroke-width="24" stroke-linecap="round"/>
+  <ellipse cx="700" cy="270" rx="38" ry="52" fill="none" stroke="white" stroke-width="24" transform="rotate(-35 700 270)"/>
+
+  <!-- Fork -->
+  <line x1="304" y1="300" x2="374" y2="490" stroke="white" stroke-width="24" stroke-linecap="round"/>
+  <line x1="290" y1="220" x2="300" y2="320" stroke="white" stroke-width="20" stroke-linecap="round"/>
+  <line x1="318" y1="210" x2="322" y2="315" stroke="white" stroke-width="20" stroke-linecap="round"/>
+  <line x1="346" y1="215" x2="344" y2="318" stroke="white" stroke-width="20" stroke-linecap="round"/>
+  <path d="M290 320 Q318 340 344 318" fill="none" stroke="white" stroke-width="20" stroke-linecap="round"/>
+
+  <!-- Leaf/nutrition element in bowl -->
+  <path d="M512 480 C480 440 430 430 420 400 C410 370 440 340 480 350 C500 355 512 370 512 370 C512 370 524 355 544 350 C584 340 614 370 604 400 C594 430 544 440 512 480Z" fill="white" opacity="0.9"/>
+  <line x1="512" y1="480" x2="512" y2="390" stroke="#1a7a4a" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Small decorative dots -->
+  <circle cx="420" cy="610" r="12" fill="white" opacity="0.5"/>
+  <circle cx="512" cy="625" r="12" fill="white" opacity="0.5"/>
+  <circle cx="604" cy="610" r="12" fill="white" opacity="0.5"/>
+</svg>
